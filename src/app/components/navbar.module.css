@@ -1,0 +1,111 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+}
+.cusion {
+  margin-left: 10px;
+}
+.navul {
+  display: flex;
+}
+.navli {
+  padding-left: 30px;
+  font-size: 16px;
+  
+}
+.navli:hover{
+  color: #AD343E;
+}
+ 
+ 
+ 
+  
+  
+.active{
+  background-color: #DBDFD0;
+  border: 1px solid #DBDFD0;
+  border-radius: 30px;
+  padding: 8px 13px;
+  transition: 0.3 ease;
+
+}
+.active:hover{
+  background-color:#AD343E ;
+  color: white;
+}
+.navBtn {
+  font-size: 16px;
+  color: #2c2f24;
+  border: 1px solid #2c2f24;
+  border-radius: 30px;
+  padding:8px 28px;
+ 
+}
+.navBtn:hover{
+  background-color:#AD343E;
+  color: white;
+  border: none;
+  outline: none;
+}
+/* //////////////////////////////////////////////// */
+@media (min-width: 280px) and (max-width: 400){
+  .navBtn {
+    padding: 5px 20px; 
+    font-size: 8px; 
+  }
+}
+
+
+
+  
+
+@media (max-width: 600px) {
+  .main {
+    flex-direction: column;
+    padding: 10px 0; 
+  }
+
+  .navli {
+    font-size: 14px; 
+    padding-left: 5px; 
+  }
+
+  .navBtn {
+    padding: 8px 20px; 
+    font-size: 12px; 
+  }
+}
+
+/* For tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .main {
+    flex-direction: row; 
+    padding: 15px 0; 
+  }
+
+  .navli {
+    font-size: 15px; 
+    padding-left: 8px; 
+  }
+
+  .navBtn {
+    padding: 8px 28px; 
+    font-size: 13px; 
+  }
+}
+
+/* For larger screens */
+@media (min-width: 1025px) {
+  .main {
+    padding: 20px 0; 
+  }
+
+ 
+  .navBtn {
+    padding: 8px 28px; 
+    font-size: 14px; 
+  }
+}
+/* ////////////////////////////////////////////// */

@@ -1,0 +1,22 @@
+/* Hero css code */
+.backgroundClass {
+    background-image: url('/content.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    color: white; 
+    text-align: center;
+}
+/* Media query for devices 380px wide and smaller */
+@media (max-width: 380px) {
+  .backgroundClass {
+    height: 50vh; /* Adjusted height for smaller screens */
+    padding: 20px;
+    background-color: #e0e0e0; /* Optional color adjustment for smaller screens */
+    /* Adjust other properties like font-size, padding, or margins */
+  }
+}

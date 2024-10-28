@@ -1,0 +1,245 @@
+/* manu card and section css */
+
+/* ManuCards.module.css */
+#body {
+  box-sizing: border-box;
+}
+.manuSection{
+  margin: 90px auto;
+}
+.manuHeading {
+  font-size: 35px;
+  color: #2c2f24;
+  text-align: center;
+  margin: 30px 0;
+  font-weight: 600;
+}
+.manusec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.card {
+  width: 240px;
+  margin-left: 15px;
+  height: auto;
+  flex-wrap: wrap;
+  border: 1px solid #414536;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0px 10px;
+  flex-wrap: wrap;
+  transition: 0.2s ease-in;
+ 
+}
+
+
+
+.img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+  padding: 20px;
+  margin: auto;
+}
+
+.titl {
+  font-size: 20px;
+  color: #414536;
+  /* margin: 10px 0; */
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.des {
+  font-size: 16px;
+  color: #414536;
+  padding-top: 10px;
+  text-align: start;
+}
+
+.subTitle {
+  font-size: 14px;
+  color: #ad343e;
+  font-style: italic;
+  padding: 20px;
+  font-weight: bold;
+}
+
+/* Medium Screens (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+.manuHeading {
+  font-size: 40px;
+  color: #2c2f24;
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+}
+.manusec {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 45%; /* Two cards per row */
+  /* max-width: 45%; */
+  margin: 10px;
+}
+
+.img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+  padding: 20px;
+  margin: auto;
+}
+
+.titl {
+  font-size: 20px;
+  color: #414536;
+
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.des {
+  font-size: 16px;
+  color: #414536;
+  padding-top: 10px;
+  text-align: start;
+}
+
+.subTitle {
+  font-size: 14px;
+  color: #ad343e;
+  font-style: italic;
+  padding: 20px;
+  font-weight: bold;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .manusec {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .manuHeading {
+    font-size: 24px;
+    color: #2c2f24;
+    text-align: center;
+    margin: 7px 0;
+    font-weight: 400;
+  }
+  .manusec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 75%;
+    max-width: 300px;
+    margin-top: 13px;
+    height: auto;
+    flex-wrap: wrap;
+    border: 1px solid #414536;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0px 10px;
+
+    transition: 0.2s ease-in;
+  }
+
+  .img {
+    border-radius: 50%;
+    margin-bottom: 12px;
+    padding: 13px;
+    margin: auto;
+  }
+
+  .titl {
+    font-size: 18px;
+    color: #414536;
+
+    padding-top: 7px;
+    font-weight: bold;
+  }
+
+  .des {
+    font-size: 14px;
+    color: #414536;
+    padding-top: 12px;
+    text-align: start;
+  }
+
+  .subTitle {
+    font-size: 14px;
+    color: #ad343e;
+    font-style: italic;
+    padding: 13px;
+    font-weight: bold;
+  }
+}
+
+/* Extra Small Screens (below 576px) */
+@media (min-width: 380px) and (max-width: 575px) {
+  .manusec {
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center;
+  }
+
+  .manuHeading {
+    font-size: 20px;
+    color: #2c2f24;
+    text-align: center;
+    margin: 5px 0;
+    font-weight: 300;
+  }
+  .manusec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 70%;
+    max-width: 200px;
+    margin-top: 10px;
+    height: auto;
+    flex-wrap: wrap;
+    border: 1px solid #414536;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0px 5px;
+
+    transition: 0.2s ease-in;
+  }
+
+  .img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin: auto;
+  }
+
+  .titl {
+    font-size: 16px;
+    color: #414536;
+    /* margin: 10px 0; */
+    padding-top: 5px;
+    font-weight: bold;
+  }
+
+  .des {
+    font-size: 10px;
+    color: #414536;
+    padding-top: 5px;
+    text-align: start;
+  }
+
+  .subTitle {
+    font-size: 14px;
+    color: #ad343e;
+    font-style: italic;
+    padding: 10px;
+    font-weight: bold;
+  }
+}

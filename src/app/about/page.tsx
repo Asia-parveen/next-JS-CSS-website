@@ -1,7 +1,8 @@
 import React from 'react'
 import FoodSection from '../components/food/FoodSection';
 import Information from '../components/information/Information';
-import OurManu from '../components/ourmanu/OurManu';
+import Services from '../components/servis/Services';
+
 
 
 const AboutPage = () => {
@@ -9,7 +10,8 @@ const AboutPage = () => {
     <div>
       <FoodSection/>
       <Information/>
-      <OurManu/>
+      <Services/>
+     
     </div>
   )
 }

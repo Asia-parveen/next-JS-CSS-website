@@ -14,50 +14,50 @@ const Services = () => {
     const cardsData: CardData[] = [
         {
             picture: '/images/pic2.png',
-            title: '$ 9.99',
-            subTitle: 'Fried Eggs',
+            title: 'Events',
+            subTitle: ' we look in the future with certainty for life.',
          
         },
         {
             picture: '/images/pic3.png',
-            title: '$ 15.99',
-            subTitle: 'Hawaiian Pizza',
+            title: 'Caterings',
+            subTitle: 'we look in the future with certainty for life.',
           
         },
         {
-            picture: '/images/pic2.png',
-            title: '$ 7.25',
-            subTitle: 'Martinez Cocktail',
+            picture: '/images/pic8.jpg',
+            title: 'Home Events',
+            subTitle: 'we look in the future with certainty for life.',
            
         },
         {
-            picture: '/images/pic2.png',
-            title: '$ 20.99',
-            subTitle: 'Butterscotch Cake',
+            picture: '/images/Mask.png',
+            title: 'Birthdays',
+            subTitle: 'we look in the future with certainty for life.',
            
         },
         {
-            picture: '/images/pic4.jpg',
-            title: '$ 5.89',
-            subTitle: 'Mint Lemonade',
+            picture: '/images/Mask1.png',
+            title: 'Weddings',
+            subTitle: 'we look in the future with certainty for life.',
           
         },
         {
-            picture: '/images/pic2.png',
-            title: '$ 18.05',
-            subTitle: 'Chocolate Icecream',
+            picture: '/images/three.jpg',
+            title: 'Parties',
+            subTitle: 'we look in the future with certainty for life.',
            
         },
         {
             picture: '/images/pic2.png',
-            title: '$ 12.55',
-            subTitle: 'Cheese Burger',
+            title: 'Gathering',
+            subTitle: 'we look in the future with certainty for life.',
            
         },
         {
-            picture: '/images/pic2.png',
-            title: '$ 12.99',
-            subTitle: 'Classic Waffles',
+            picture: '/images/one.jpg',
+            title: 'Catering',
+            subTitle: 'we look in the future with certainty for life.',
            
         },
     ];

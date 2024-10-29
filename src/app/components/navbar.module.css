@@ -27,7 +27,7 @@
   background-color: #DBDFD0;
   border: 1px solid #DBDFD0;
   border-radius: 30px;
-  padding: 8px 13px;
+  padding: 8px 18px;
   transition: 0.3 ease;
 
 }
@@ -50,11 +50,32 @@
   outline: none;
 }
 /* //////////////////////////////////////////////// */
-@media (min-width: 280px) and (max-width: 400){
-  .navBtn {
-    padding: 5px 20px; 
-    font-size: 8px; 
+
+@media (max-width: 400){
+  .main img{
+    width: 30px;
+    height: 30px;
   }
+  .navBtn {
+    padding: 3px 20px; 
+    font-size: 6px; 
+     margin-top:8px; 
+    padding: 6px 20px; 
+    font-size: 10px; 
+    margin: 8px 0;
+  }
+  .navli{
+    font-size: 4px;
+  
+}
+.active{
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  padding: 2px 10px;
+  transition: 0.3 ease;
+ 
+}
 }
 
 
@@ -73,9 +94,18 @@
   }
 
   .navBtn {
-    padding: 8px 20px; 
-    font-size: 12px; 
+    padding: 6px 20px; 
+    font-size: 10px; 
+    margin: 8px 0;
   }
+  .active{
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  padding: 2px 10px;
+  transition: 0.3 ease;
+ 
+}
 }
 
 /* For tablets */

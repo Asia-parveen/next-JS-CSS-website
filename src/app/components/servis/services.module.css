@@ -74,10 +74,10 @@
   margin-left: 20px;
   height: auto;
   flex-wrap: wrap;
-  border: 1px solid #414536;
+  border: 1px solid #AD343E;
   text-align: center;
   border-radius: 8px;
-  /* padding: 0px 10px; */
+  background-color:#F9F9F7;
   
   transition: 0.2s ease-in;
   margin-top: 30px;
@@ -90,13 +90,14 @@
 .titl{
     padding-top: 20px;
     font-size: 18px;
-    color: #AD343E;
+    color: black;
     font-weight: bold;
+    opacity: 0.5;
 
 }
 .subTitle{
-    font-size: 18px;
-    color: #414536;
+    font-size: 16px;
+    color: #AD343E;
     font-weight:bold;
     opacity: 0.5;
     padding-top: 15px;
@@ -111,7 +112,7 @@
 /* ///////////////////////////////////////////////// */
 @media (max-width: 450px) {
     .heading{
-        font-size: 30px;
+        font-size: 25px;
        
     }
     .para{

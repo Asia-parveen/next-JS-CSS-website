@@ -19,8 +19,8 @@ const ServicesCard = ({ picture, title, subTitle }:ServicesCardProps) => {
         <Image 
             src={picture}
             alt={title} 
-            width={230}
-            height={230}
+            width={240}
+            height={250}
             className={Styles.img}
         />
         <h3 className={Styles.titl}>{title}</h3>
